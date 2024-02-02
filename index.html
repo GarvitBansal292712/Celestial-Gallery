@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CELESTIAL GALLERY </title>
+
+    <!-- ----------------------------------Css Link--------------------------------------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ----------------------------------Css Link--------------------------------------- -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- ----------------------------------Google Fonts Link--------------------------------------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Poppins&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- ----------------------------------Google Fonts Link--------------------------------------- -->
+</head>
+
+<body>
+
+    <div class="hero" style="background-image: url(Images/spiral2.jpg); background-size: cover; ">
+
+        <h1 class="heroheading">CELESTIAL GALLERY </h1>
+        <h3 class="herodescrip">Add your Favourite Planets,Moments ,Events anything of <br>This never ending journey of Space</h3>
+
+    </div>
+    <section class="mainpart"
+        style="background-image: url(Images/wp9190006-4k-milky-way-galaxy-wallpapers.jpg); background-size: cover;">
+        <div class="formcontainer img-fluid">
+            <form id="spacelistform" style="background-image: url(Images/moon.jpg);
+                 background-size: cover; background-repeat: no-repeat;">
+                <h1 class="formheading">FILL THE FORM TO ADD YOUR <br> FAVOURITE COSMIC PHENOMENON</h1>
+                <div class="mb-3">
+                    <label for="FormControlName" class="form-label" > Name <span style="color: red;">*</span>
+                    </label>
+                    <input type="text" class="form-control " id="name" placeholder="Cosmic Phennonmenon Name"
+                        aria-label="Event name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="FormControlName" class="form-label">How far it is/ Date of Occurance <span
+                            style="color: red;">*</span> </label>
+                    <input type="text" class="form-control " id="timeanddist" placeholder="2 mil light years?"
+                        aria-label="Date/Distance" required>
+                </div>
+                <div class="mb-3">
+                    <label for="FormControlName" class="form-label">Photo Url </label>
+                    <input type="url" class="form-control " id="url" placeholder="Enter the Photo Url"
+                        aria-label="Photo Url">                </div>
+                <div class="mb-3">
+                    <label for="FormControlTextarea1" class="form-label">Event Description </label>
+                    <textarea class="form-control" id="description" rows="4"
+                        placeholder="Desciption of Your Event "></textarea>
+                </div>
+                <div class="submitbutton">
+                    <button type="submit" class="submitbtn" id="submit-button">Add to the list</button>
+                </div>
+            </form>
+        </div>
+        <hr style="color: white;">
+        <h1 class="cardsheading" id="listtitle">Hey Let's Get Started Shall We? </h1>
+
+        <div class="cardscontainer" id="cardscont">
+            <!--             <div class="card" >
+                <img class="img-fluid" src="Images&Video/spiral2.jpg" alt="background-image" >
+                <div class="info">
+                    <h5 class="nameh5"><span class="spanlabel">Name:</span> Spiral Galaxy</h5>
+                    <h5 class="ddh5"><span class="spanlabel" >Distance/Date:</span> 5 LIGHT YEARS AWAY</h5>
+                    <h5 class="desch5"><span class="spanlabel" >Description:</span> Lorem ipsum dolor sit amet consectetur,
+                        adipisicing elit. Molestias porro incidunt natus
+                        pariatur
+                        necessitatibus aut ullam impedit esse, beatae exercitationem.
+                    </h5>
+                    <button class="cardbtn">Remove Card</button>
+                </div>
+            </div> -->
+
+        </div>
+
+    </section>
+
+
+
+    <!-- --------------------------------Javascript Link--------------------------------------- -->
+    <script src="main.js"></script>
+    <!-- --------------------------------Javascript Link--------------------------------------- -->
+
+
+    <!-- --------------------------------Bootstrap CDN--------------------------------------- -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!-- --------------------------------Bootstrap CDN--------------------------------------- -->
+
+    <!-- --------------------------------Font Awsome CDN Link--------------------------------------- -->
+    <script src="https://kit.fontawesome.com/91b027ae4c.js" crossorigin="anonymous"></script>
+    <!-- --------------------------------Font Awsome CDN Link--------------------------------------- -->
+
+</body>
+
+</html>

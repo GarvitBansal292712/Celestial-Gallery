@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Space Mono", monospace;
+}
+
+.hero {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative; /* Added this line */
+}
+
+.heroheading {
+  color: white;
+  text-align: center;
+  font-size: 3.1rem;
+  padding: 5px;
+  margin: 0 5px 0 5px;
+}
+
+.herodescrip {
+  color: white;
+  text-align: center;
+  margin: 0 5px 0 5px;
+}
+
+/* #myVideo {
+  margin-top: 25vh;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 100%;
+}
+ */
+/* .bgvideo{
+
+  position: fixed;
+    top: 0;
+    width: 100%;
+    height:100%;
+    z-index: -1;
+    overflow: hidden;
+
+} */
+
+/* --------------------------------------------------------Form------------------------------------------------------ */
+
+.formcontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0px 30px;
+}
+
+form {
+  margin-top: 10px;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+label.form-label {
+  color: white;
+}
+
+input.form-control,
+textarea.form-control {
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.396);
+}
+
+input[type="text"]::-webkit-input-placeholder,
+input[type="url"]::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+::placeholder{
+  color: white !important;
+}
+
+.formheading {
+  text-align: center;
+  color: white;
+}
+
+.submitbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitbtn {
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.386);
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s ease-in;
+  color: white;
+}
+
+.submitbtn:hover {
+  box-shadow: 8px 4px rgb(255, 255, 255);
+}
+
+/* --------------------------------------------------------Form------------------------------------------------------ */
+
+.cardsheading {
+  text-align: center;
+  color: white;
+}
+
+.cardscontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px 10px 10px 10px;
+  height: 50vh;
+  width: 50vh;
+  color: rgb(0, 0, 0);
+  transition: 0.2s ease-in;
+  background-color: rgba(255, 255, 255, 0.273) !important;
+}
+
+.img-fluid{
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 8px 4px black;
+  transform: translateY(-5px);
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.spanlabel{
+  color: white;
+}
+
+.cardbtn {
+  padding: 8px;
+  margin: 0 0 10px 0;
+  background-color: rgba(255, 255, 255, 0.386);
+  border: none;
+  border-radius: 8px;
+  transition: 0.2s ease-in;
+  color: white;
+}
+
+.cardbtn:hover {
+  box-shadow: 8px 4px black;
+}
